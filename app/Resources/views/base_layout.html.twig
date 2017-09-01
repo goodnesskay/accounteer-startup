@@ -13,14 +13,14 @@
 
     <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
 
-    {% block stylesheets %}{% endblock %}
+    {% block stylesheets %}
         <link href="{{ app.request.schemeAndHttpHost() }}/public/assets/css/flexslider.min.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="{{ app.request.schemeAndHttpHost() }}/public/assets/css/line-icons.min.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="{{ app.request.schemeAndHttpHost() }}/public/assets/css/elegant-icons.min.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="{{ app.request.schemeAndHttpHost() }}/public/assets/css/lightbox.min.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="{{ app.request.schemeAndHttpHost() }}/public/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="{{ app.request.schemeAndHttpHost() }}/public/assets/css/theme.css" rel="stylesheet" type="text/css" media="all"/>
-
+    {% endblock %}
 
     <!--[if gte IE 9]>
     <link rel="stylesheet" type="text/css" href="{{ app.request.schemeAndHttpHost() }}/public/assets/css/ie9.css" />
@@ -130,7 +130,7 @@
         </footer>
     </div>
 
-    {% block javascripts %}{% endblock %}
+    {% block javascripts %}
     <script src="{{ app.request.schemeAndHttpHost() }}/public/assets/js/jquery.min.js"></script>
     <script src="{{ app.request.schemeAndHttpHost() }}/public/assets/js/jquery.plugin.min.js"></script>
     <script src="{{ app.request.schemeAndHttpHost() }}/public/assets/js/bootstrap.min.js"></script>
@@ -144,7 +144,7 @@
     <script src="{{ app.request.schemeAndHttpHost() }}/public/assets/js/lightbox.min.js"></script>
     <script src="{{ app.request.schemeAndHttpHost() }}/public/assets/js/jquery.countdown.min.js"></script>
     <script src="{{ app.request.schemeAndHttpHost() }}/public/assets/js/scripts.js"></script>
-
+    {% endblock %}
 </body>
 </html>
 
