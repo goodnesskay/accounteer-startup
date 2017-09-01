@@ -1,10 +1,9 @@
-{% extends 'dashboard_layout.html.twig' %}
-{% form_theme form 'bootstrap_3_layout.html.twig' %}
+{% extends "dashboard_layout.html.twig" %}
 
 {% block body %}
     <div class="page animsition">
         <div class="page-header">
-            <h1 class="page-title">Update Personal Information</h1>
+            <h1 class="page-title">Personal Information</h1>
         </div>
         <div class="page-content">
             <div class="panel">
@@ -13,7 +12,7 @@
                         <div class="col-sm-12">
                             <div class="example-wrap">
                                 <div class="example">
-                                    {% include "@FOSUser/Profile/edit_content.html.twig" %}
+                                    {% include "@FOSUser/Profile/show_content.html.twig" %}
                                 </div>
                             </div>
                         </div>
@@ -24,5 +23,4 @@
 
         </div>
     </div>
-    <!-- End Page -->
-{% endblock %}
+{% endblock body %}
