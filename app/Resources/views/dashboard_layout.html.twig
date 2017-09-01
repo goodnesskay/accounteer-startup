@@ -199,7 +199,7 @@
                         </a>
                         <ul class="site-menu-sub">
                             <li class="site-menu-item">
-                                <a class="animsition-link" href="profile.html">
+                                <a class="animsition-link" href="{{ path('user_bundle_app_profile_edit') }}">
                                     <span class="site-menu-title">Update Profile</span>
                                 </a>
                                 <a class="animsition-link" href="view-profile.html">
@@ -249,7 +249,7 @@
     </div>
 </div>
 
-{% block fos_user_content %}{% endblock fos_user_content %}
+{% block body %}{% endblock body %}
 
 <!-- Footer -->
 <footer class="site-footer">

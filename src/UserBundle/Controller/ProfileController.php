@@ -9,6 +9,6 @@ class ProfileController extends Controller
 {
     public function editProfileAction()
     {
-
+        return $this->render('UserBundle:Profile:edit.html.twig');
     }
 }
