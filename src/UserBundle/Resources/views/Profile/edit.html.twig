@@ -11,6 +11,12 @@
                 <div class="panel-body container-fluid">
                     <div class="row row-lg">
                         <div class="col-sm-12">
+                            {% for flashMessage in app.session.flashbag.get('alert') %}
+                                <div class="alert alert-success alert-dismissible" role="alert">
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <p class="text-center">{{ flashMessage }}</p>
+                                </div>
+                            {% endfor %}
                             <div class="example-wrap">
                                 <div class="example">
                                     {% include "FOSUserBundle:Profile:edit_content.html.twig" %}

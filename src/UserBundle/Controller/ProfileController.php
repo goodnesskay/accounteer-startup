@@ -48,10 +48,14 @@ class ProfileController extends Controller
             $dispatcher->dispatch(FOSUserEvents::PROFILE_EDIT_SUCCESS, $event);
             $userManager->updateUser($user);
             if (null === $response = $event->getResponse()) {
-                $url = $this->generateUrl('fos_user_profile_show');
+                $url = $this->generateUrl('user_bundle_app_profile_edit');
                 $response = new RedirectResponse($url);
             }
             $dispatcher->dispatch(FOSUserEvents::PROFILE_EDIT_COMPLETED, new FilterUserResponseEvent($user, $request, $response));
+            $this->get('session')->getFlashBag()->add(
+                'alert',
+                'Update made to profile!'
+            );
             return $response;
         }
 
