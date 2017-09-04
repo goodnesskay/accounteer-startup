@@ -1,3 +1,8 @@
+company:
+    resource: "@CompanyBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
