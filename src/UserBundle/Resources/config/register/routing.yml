@@ -1,0 +1,8 @@
+user_bundle_app_register_create:
+    path:     /register
+    defaults: { _controller: UserBundle:Registration:register }
+    methods: POST
+
+user_bundle_app_register_dashboard:
+    path:     /dashboard
+    defaults: { _controller: UserBundle:Registration:dashboard }

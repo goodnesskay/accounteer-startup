@@ -43,6 +43,12 @@ class CompanyController extends Controller
      */
     public function listAction()
     {
-        return $this->render('CompanyBundle:Company:create.html.twig');
+        $userId = $this->get('security.token_storage')->getToken()->getUser();
+        $em = $this->getDoctrine()->getManager();
+        $companies = $em->getRepository('CompanyBundle:Company')->findBy(array('user' => $userId));
+
+        return $this->render('CompanyBundle:Company:list.html.twig',[
+            'companies' => $companies
+        ]);
     }
 }

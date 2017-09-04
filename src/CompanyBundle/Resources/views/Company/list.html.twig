@@ -1,0 +1,16 @@
+{% extends "dashboard_layout.html.twig" %}
+
+{% block body %}
+   <div class="container">
+       <div class="row">
+           <div class="col-md-12">
+            {% for company in companies %}
+            <h1>{{ company.companyName }}</h1>
+            <h1>{{ company.companyEmail }}</h1>
+            <h1>{{ company.companyMobileNumber }}</h1>
+            {% endfor %}
+           </div>
+       </div>
+   </div>
+{% endblock body %}
+

@@ -1,0 +1,83 @@
+{% extends "dashboard_layout.html.twig" %}
+
+{% trans_default_domain 'FOSUserBundle' %}
+
+{% block body %}
+    <div class="page animsition">
+        <div class="page-header">
+            <h1 class="page-title font-size-26 font-weight-100">Dashboard</h1>
+        </div>
+        <div class="page-content container-fluid">
+            <div class="row" data-plugin="matchHeight" data-by-row="true">
+                <!-- First Row -->
+                <div class="col-lg-3 col-sm-6 col-xs-12 info-panel">
+                    <div class="widget widget-shadow">
+                        <div class="widget-content bg-white padding-20">
+                            <button type="button" class="btn btn-floating btn-sm btn-warning">
+                                <i class="icon wb-users"></i>
+                            </button>
+                            <span class="margin-left-15 font-weight-400">Users</span>
+                            <div class="content-text text-center margin-bottom-0">
+                                <i class="text-danger icon wb-triangle-up font-size-20">
+                                </i>
+                                <span class="font-size-40 font-weight-100">399</span>
+                                <p class="blue-grey-400 font-weight-100 margin-0">+45% From previous month</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-xs-12 info-panel">
+                    <div class="widget widget-shadow">
+                        <div class="widget-content bg-white padding-20">
+                            <button type="button" class="btn btn-floating btn-sm btn-danger">
+                                <i class="icon fa-home"></i>
+                            </button>
+                            <span class="margin-left-15 font-weight-400">Company</span>
+                            <div class="content-text text-center margin-bottom-0">
+                                <i class="text-success icon wb-triangle-down font-size-20">
+                                </i>
+                                <span class="font-size-40 font-weight-100">2</span>
+                                <p class="blue-grey-400 font-weight-100 margin-0">+45% From previous month</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-xs-12 info-panel">
+                    <div class="widget widget-shadow">
+                        <div class="widget-content bg-white padding-20">
+                            <button type="button" class="btn btn-floating btn-sm btn-success">
+                                <i class="icon wb-eye"></i>
+                            </button>
+                            <span class="margin-left-15 font-weight-400">Visits</span>
+                            <div class="content-text text-center margin-bottom-0">
+                                <i class="text-danger icon wb-triangle-up font-size-20">
+                                </i>
+                                <span class="font-size-40 font-weight-100">23,456</span>
+                                <p class="blue-grey-400 font-weight-100 margin-0">+25% From previous month</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-xs-12 info-panel">
+                    <div class="widget widget-shadow">
+                        <div class="widget-content bg-white padding-20">
+                            <button type="button" class="btn btn-floating btn-sm btn-primary">
+                                <i class="icon wb-user"></i>
+                            </button>
+                            <span class="margin-left-15 font-weight-400">CUSTOMERS</span>
+                            <div class="content-text text-center margin-bottom-0">
+                                <i class="text-danger icon wb-triangle-up font-size-20">
+                                </i>
+                                <span class="font-size-40 font-weight-100">4,367</span>
+                                <p class="blue-grey-400 font-weight-100 margin-0">+25% From previous month</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End First Row -->
+            </div>
+        </div>
+    </div>
+    <!-- End Page -->
+
+{% endblock body %}
