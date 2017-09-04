@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb068c88-720c-48d7-be66-6677f6de0b89" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Profile/edit_content.html.twig" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Profile/edit_content.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UserBundle/Controller/ProfileController.php" afterPath="$PROJECT_DIR$/src/UserBundle/Controller/ProfileController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UserBundle/Resources/views/Profile/edit.html.twig" afterPath="$PROJECT_DIR$/src/UserBundle/Resources/views/Profile/edit.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/dashboard_layout.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/dashboard_layout.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/security.yml" afterPath="$PROJECT_DIR$/app/config/security.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UserBundle/Resources/config/login/routing.yml" afterPath="$PROJECT_DIR$/src/UserBundle/Resources/config/login/routing.yml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,21 +15,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="edit_content.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Profile/edit_content.html.twig">
+      <file leaf-file-name="dashboard_layout.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/dashboard_layout.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="550">
+              <caret line="253" column="15" lean-forward="false" selection-start-line="253" selection-start-column="15" selection-end-line="253" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.html.twig" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/UserBundle/Resources/views/Profile/edit.html.twig">
+      <file leaf-file-name="security.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/security.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="40" lean-forward="false" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+            <state relative-caret-position="486">
+              <caret line="27" column="27" lean-forward="false" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+              <folding>
+                <marker date="1504539952986" expanded="true" signature="113:123" ph="security: &lt;6 keys&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routing.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/UserBundle/Resources/config/login/routing.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -56,7 +68,6 @@
         <option value="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/app/AppKernel.php" />
-        <option value="$PROJECT_DIR$/app/config/security.yml" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/register.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/auth_layout.html.twig" />
@@ -80,13 +91,11 @@
         <option value="$PROJECT_DIR$/src/UserBundle/Controller/RegistrationController.php" />
         <option value="$PROJECT_DIR$/src/UserBundle/Resources/config/register/routing.yml" />
         <option value="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Profile/dashboard.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/dashboard_layout.html.twig" />
         <option value="$PROJECT_DIR$/app/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/CompanyBundle/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/CompanyBundle/Resources/views/Company/create.html.twig" />
         <option value="$PROJECT_DIR$/src/UserBundle/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/UserBundle/Controller/LoginController.php" />
-        <option value="$PROJECT_DIR$/src/UserBundle/Resources/config/login/routing.yml" />
         <option value="$PROJECT_DIR$/src/CompanyBundle/Resources/config/company/routing.yml" />
         <option value="$PROJECT_DIR$/src/CompanyBundle/Resources/views/Company/list.html.twig" />
         <option value="$PROJECT_DIR$/src/CompanyBundle/Resources/views/Company/edit.html.twig" />
@@ -95,6 +104,9 @@
         <option value="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Profile/edit_content.html.twig" />
         <option value="$PROJECT_DIR$/src/UserBundle/Controller/ProfileController.php" />
         <option value="$PROJECT_DIR$/src/UserBundle/Resources/views/Profile/edit.html.twig" />
+        <option value="$PROJECT_DIR$/app/config/security.yml" />
+        <option value="$PROJECT_DIR$/src/UserBundle/Resources/config/login/routing.yml" />
+        <option value="$PROJECT_DIR$/app/Resources/views/dashboard_layout.html.twig" />
       </list>
     </option>
   </component>
@@ -141,26 +153,13 @@
             <path>
               <item name="accounteer-startup" type="b2602c69:ProjectViewProjectNode" />
               <item name="accounteer-startup" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="accounteer-startup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="accounteer-startup" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="UserBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="accounteer-startup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="accounteer-startup" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="UserBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="accounteer-startup" type="b2602c69:ProjectViewProjectNode" />
               <item name="accounteer-startup" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="UserBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
@@ -168,10 +167,12 @@
               <item name="accounteer-startup" type="b2602c69:ProjectViewProjectNode" />
               <item name="accounteer-startup" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="accounteer-startup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="accounteer-startup" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="UserBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Profile" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -183,7 +184,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="edit&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/Resources/FOSUserBundle/views/Profile/edit.html.twig&#10;Compa&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/src/CompanyBundle/Controller/CompanyController.php&#10;security&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/config/security.yml&#10;Com&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/src/CompanyBundle/Entity/Company.php&#10;ed&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/src/UserBundle/Resources/views/Profile/edit.html.twig&#10;das&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/Resources/views/dashboard_layout.html.twig&#10;Pro&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/src/UserBundle/Controller/ProfileController.php&#10;USer&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/src/UserBundle/Entity/User.php&#10;Company&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/src/CompanyBundle/Entity/Company.php&#10;User&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/src/UserBundle/Entity/User.php&#10;sec&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/config/security.yml&#10;config&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/config/config.yml&#10;par&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/config/parameters.yml&#10;para&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/config/parameters.yml&#10;confi&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/config/config.yml&#10;user&#9;null&#9;null&#10;routing.yml&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/config/routing.yml&#10;dash&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/Resources/views/dashboard_layout.html.twig&#10;base&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/Resources/views/base_layout.html.twig&#10;services.yml&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/config/services.yml" />
+    <property name="SearchEverywhereHistoryKey" value="security&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/config/security.yml&#10;edit&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/Resources/FOSUserBundle/views/Profile/edit.html.twig&#10;Compa&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/src/CompanyBundle/Controller/CompanyController.php&#10;Com&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/src/CompanyBundle/Entity/Company.php&#10;ed&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/src/UserBundle/Resources/views/Profile/edit.html.twig&#10;das&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/Resources/views/dashboard_layout.html.twig&#10;Pro&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/src/UserBundle/Controller/ProfileController.php&#10;USer&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/src/UserBundle/Entity/User.php&#10;Company&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/src/CompanyBundle/Entity/Company.php&#10;User&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/src/UserBundle/Entity/User.php&#10;sec&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/config/security.yml&#10;config&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/config/config.yml&#10;par&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/config/parameters.yml&#10;para&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/config/parameters.yml&#10;confi&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/config/config.yml&#10;user&#9;null&#9;null&#10;routing.yml&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/config/routing.yml&#10;dash&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/Resources/views/dashboard_layout.html.twig&#10;base&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/Resources/views/base_layout.html.twig&#10;services.yml&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/config/services.yml" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../todo-app" />
   </component>
   <component name="RecentsManager">
@@ -227,12 +228,12 @@
       <updated>1504240350080</updated>
       <workItem from="1504240351415" duration="11997000" />
       <workItem from="1504258635217" duration="14704000" />
-      <workItem from="1504477813046" duration="25915000" />
+      <workItem from="1504477813046" duration="26619000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52616000" />
+    <option name="totallyTimeSpent" value="53320000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="292" y="52" width="1855" height="1084" extended-state="6" />
@@ -504,14 +505,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/dashboard_layout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="224" column="80" lean-forward="false" selection-start-line="224" selection-start-column="80" selection-end-line="224" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -578,14 +571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/UserBundle/Resources/config/login/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="53" lean-forward="false" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CompanyBundle/Resources/config/company/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -600,16 +585,6 @@
           <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="24" selection-end-column="40" />
           <folding>
             <element signature="e#904#911#1#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <marker date="1504252715403" expanded="true" signature="113:123" ph="security: &lt;6 keys&gt;" />
           </folding>
         </state>
       </provider>
@@ -674,18 +649,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Profile/edit_content.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/UserBundle/Resources/views/Profile/edit.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="18" column="40" lean-forward="false" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Profile/edit_content.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="27" lean-forward="false" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+          <folding>
+            <marker date="1504539952986" expanded="true" signature="113:123" ph="security: &lt;6 keys&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UserBundle/Resources/config/login/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/dashboard_layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="253" column="15" lean-forward="false" selection-start-line="253" selection-start-column="15" selection-end-line="253" selection-end-column="15" />
           <folding />
         </state>
       </provider>

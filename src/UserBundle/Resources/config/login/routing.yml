@@ -5,3 +5,6 @@ user_bundle_app_login:
 user_bundle_app_security_check:
     path: /login_check
     defaults: { _controller: UserBundle:Login:check }
+
+user_bundle_app_logout:
+    path:     /logout
