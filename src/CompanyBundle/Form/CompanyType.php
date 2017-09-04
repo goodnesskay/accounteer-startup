@@ -3,6 +3,7 @@
 namespace CompanyBundle\Form;
 
 use Symfony\Component\Form\AbstractType;
+use Symfony\Component\Form\Extension\Core\Type\SubmitType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
@@ -13,9 +14,13 @@ class CompanyType extends AbstractType
      */
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
-        $builder->add('companyName')->add('companyEmail')->add('companyMobileNumber')->add('companyAddress')->add('product');
+        $builder->add('companyName')
+            ->add('companyEmail')
+            ->add('companyMobileNumber')
+            ->add('companyAddress')
+            ->add('submit',SubmitType::class);
     }
-    
+
     /**
      * {@inheritdoc}
      */

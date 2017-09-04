@@ -33,11 +33,11 @@
 			// If you use this separator for anything, choose a new one
 			separator: "|",
 
-			// Default Checked Message
+			// Company Checked Message
 			// This message will be visible when input is checked
 			checked_label: "Checked",
 
-			// Default UnChecked Message
+			// Company UnChecked Message
 			// This message will be visible when input is unchecked
 			unchecked_label: "Unchecked",
 

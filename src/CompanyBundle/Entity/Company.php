@@ -26,7 +26,7 @@ class Company
      * @ORM\ManyToOne(targetEntity="UserBundle\Entity\User", inversedBy="companies")
      * @ORM\JoinColumn(name="user_id", referencedColumnName="id")
      */
-    private $product;
+    private $user;
 
     /**
      * @var string
@@ -57,10 +57,11 @@ class Company
     private $companyAddress;
 
 
+
     /**
      * Get id
      *
-     * @return int
+     * @return integer
      */
     public function getId()
     {
@@ -163,28 +164,27 @@ class Company
         return $this->companyAddress;
     }
 
-
     /**
-     * Set product
+     * Set user
      *
-     * @param \UserBundle\Entity\User $product
+     * @param \UserBundle\Entity\User $user
      *
      * @return Company
      */
-    public function setProduct(\UserBundle\Entity\User $product = null)
+    public function setUser(\UserBundle\Entity\User $user = null)
     {
-        $this->product = $product;
+        $this->user = $user;
 
         return $this;
     }
 
     /**
-     * Get product
+     * Get user
      *
      * @return \UserBundle\Entity\User
      */
-    public function getProduct()
+    public function getUser()
     {
-        return $this->product;
+        return $this->user;
     }
 }

@@ -42,7 +42,7 @@ $(function(){
         },
         
         /**
-        Default method to show value in element. Can be overwritten by display option.
+        Company method to show value in element. Can be overwritten by display option.
         
         @method value2html(value, element) 
         **/

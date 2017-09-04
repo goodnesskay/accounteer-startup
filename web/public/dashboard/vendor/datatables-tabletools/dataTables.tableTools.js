@@ -620,7 +620,7 @@ TableTools = function( oDT, oOpts )
 		"swfPath": "",
 
 		/**
-		 * Default button set
+		 * Company button set
 		 *  @property buttonSet
 		 *  @type	 array
 		 *  @default  []

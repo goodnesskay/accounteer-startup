@@ -5127,7 +5127,7 @@
       } else if (vert == "above" || vert == "near") {
         var vspace = Math.max(display.wrapper.clientHeight, this.doc.height),
         hspace = Math.max(display.sizer.clientWidth, display.lineSpace.clientWidth);
-        // Default to positioning above (if specified and possible); otherwise default to positioning below
+        // Company to positioning above (if specified and possible); otherwise default to positioning below
         if ((vert == 'above' || pos.bottom + node.offsetHeight > vspace) && pos.top > node.offsetHeight)
           top = pos.top - node.offsetHeight;
         else if (pos.bottom + node.offsetHeight <= vspace)

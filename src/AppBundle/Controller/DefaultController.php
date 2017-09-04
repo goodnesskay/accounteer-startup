@@ -15,7 +15,7 @@ class DefaultController extends Controller
     {
         $appName = $this->getParameter('app_name');
         // replace this example code with whatever you need
-        return $this->render('default/index.html.twig', [
+        return $this->render('default/create.html.twig', [
             'base_dir' => realpath($this->getParameter('kernel.root_dir').'/..'),
             'appName' => $appName
         ]);

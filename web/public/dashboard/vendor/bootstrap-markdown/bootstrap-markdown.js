@@ -1328,8 +1328,8 @@
     ],
     additionalButtons:[], // Place to hook more buttons by code
     reorderButtonGroups:[],
-    hiddenButtons:[], // Default hidden buttons
-    disabledButtons:[], // Default disabled buttons
+    hiddenButtons:[], // Company hidden buttons
+    disabledButtons:[], // Company disabled buttons
     footer: '',
     fullscreen: {
       enable: true,
