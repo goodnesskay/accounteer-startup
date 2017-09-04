@@ -22,6 +22,20 @@ class Company
     private $id;
 
     /**
+     * Many Companies have One User.
+     * @ManyToOne(targetEntity="UserBundle/Entity/User", inversedBy="companies")
+     * @JoinColumn(name="user_id", referencedColumnName="id")
+     */
+    private $product;
+
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="user_id", type="integer")
+     */
+    private $userId;
+
+    /**
      * @var string
      *
      * @ORM\Column(name="company_name", type="string", length=255)
