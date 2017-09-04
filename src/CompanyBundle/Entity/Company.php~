@@ -163,28 +163,4 @@ class Company
         return $this->companyAddress;
     }
 
-
-    /**
-     * Set product
-     *
-     * @param \UserBundle\Entity\User $product
-     *
-     * @return Company
-     */
-    public function setProduct(\UserBundle\Entity\User $product = null)
-    {
-        $this->product = $product;
-
-        return $this;
-    }
-
-    /**
-     * Get product
-     *
-     * @return \UserBundle\Entity\User
-     */
-    public function getProduct()
-    {
-        return $this->product;
-    }
 }
