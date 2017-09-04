@@ -20,6 +20,17 @@ class User extends BaseUser
      */
     protected $id;
 
+    /**
+     * One User has Many Companies.
+     * @ORM\OneToMany(targetEntity="", mappedBy="product")
+     */
+    private $features;
+    // ...
+
+    public function __construct() {
+        $this->features = new ArrayCollection();
+    }
+
     public function __construct()
     {
         parent::__construct();

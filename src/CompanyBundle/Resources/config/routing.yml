@@ -1,0 +1,3 @@
+user_bundle_app_profile:
+    resource: "@UserBundle/Resources/config/profile/routing.yml"
+    prefix:   /

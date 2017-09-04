@@ -1,7 +1,5 @@
-company:
-    resource: "@CompanyBundle/Controller/"
-    type:     annotation
-    prefix:   /
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
 
 app:
     resource: "@AppBundle/Controller/"
@@ -16,7 +14,8 @@ user_bundle_app:
     resource: "@UserBundle/Resources/config/routing.yml"
     prefix: /
 
-fos_user:
-    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
-
+company:
+    resource: "@CompanyBundle/Controller/"
+    type:     annotation
+    prefix:   /
 
