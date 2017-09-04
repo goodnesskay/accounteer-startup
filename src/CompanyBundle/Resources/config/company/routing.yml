@@ -1,0 +1,15 @@
+company_bundle_add_new:
+    path:     /company
+    defaults: { _controller: CompanyBundle:Company:create }
+
+company_bundle_add_edit:
+    path:     /company/{id}/edit/
+    defaults: { _controller: CompanyBundle:Company:edit }
+
+company_bundle_add_delete:
+    path:     /company/{id}/delete/
+    defaults: { _controller: CompanyBundle:Company:delete }
+
+company_bundle_list_company:
+    path:     /company/list
+    defaults: { _controller: CompanyBundle:Company:list }

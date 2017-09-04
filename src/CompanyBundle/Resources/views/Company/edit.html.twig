@@ -4,13 +4,19 @@
 {% block body %}
     <div class="page animsition">
         <div class="page-header">
-            <h1 class="page-title">Create New Company</h1>
+            <h1 class="page-title">Edit Your Company Called {{ company.companyName }} </h1>
         </div>
         <div class="page-content">
             <div class="panel">
                 <div class="panel-body container-fluid">
                     <div class="row row-lg">
                         <div class="col-sm-12">
+                            {% for flashMessage in app.session.flashbag.get('alert') %}
+                                <div class="alert alert-success alert-dismissible" role="alert">
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <p class="text-center">{{ flashMessage }}</p>
+                                </div>
+                            {% endfor %}
                             <div class="example-wrap">
                                 <div class="example">
                                     {{ form(form) }}

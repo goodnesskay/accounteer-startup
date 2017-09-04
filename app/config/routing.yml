@@ -11,6 +11,10 @@ user_bundle_app:
     resource: "@UserBundle/Resources/config/routing.yml"
     prefix: /
 
+company_bundle:
+    resource: "@CompanyBundle/Resources/config/routing.yml"
+    prefix: /
+
 company:
     resource: "@CompanyBundle/Controller/"
     type:     annotation
