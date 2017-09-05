@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb068c88-720c-48d7-be66-6677f6de0b89" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CompanyBundle/Form/CompanyType.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CompanyBundle/Entity/Company.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/parameters.yml" afterPath="$PROJECT_DIR$/app/config/parameters.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CompanyBundle/Entity/Company.php" afterPath="$PROJECT_DIR$/src/CompanyBundle/Entity/Company.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CompanyBundle/Resources/config/services.yml" afterPath="$PROJECT_DIR$/src/CompanyBundle/Resources/config/services.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/base_layout.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base_layout.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CompanyBundle/Form/CompanyType.php" afterPath="$PROJECT_DIR$/src/CompanyBundle/Form/CompanyType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UserBundle/Resources/config/register/routing.yml" afterPath="$PROJECT_DIR$/src/UserBundle/Resources/config/register/routing.yml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,12 +17,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <file leaf-file-name="Company.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CompanyBundle/Company.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1039">
-              <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-              <folding />
+            <state relative-caret-position="432">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding>
+                <element signature="e#6#91#0#PHP" expanded="true" />
+                <element signature="e#126#158#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -32,8 +33,8 @@
       <file leaf-file-name="Company.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CompanyBundle/Entity/Company.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-666">
-              <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            <state relative-caret-position="381">
+              <caret line="46" column="20" lean-forward="false" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
               <folding>
                 <element signature="e#40#72#0#PHP" expanded="true" />
               </folding>
@@ -41,51 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CompanyType.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CompanyType.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CompanyBundle/Form/CompanyType.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CompanyController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CompanyBundle/Controller/CompanyController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="parameters.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="services.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CompanyBundle/Resources/config/services.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppKernel.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="18" column="64" lean-forward="false" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
+            <state relative-caret-position="237">
+              <caret line="21" column="54" lean-forward="false" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -125,7 +86,6 @@
         <option value="$PROJECT_DIR$/src/CompanyBundle/jdjdjdkdkdkd/Company.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/register_content.html.twig" />
-        <option value="$PROJECT_DIR$/src/UserBundle/Resources/config/register/routing.yml" />
         <option value="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Profile/dashboard.html.twig" />
         <option value="$PROJECT_DIR$/app/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/CompanyBundle/Resources/views/Company/create.html.twig" />
@@ -142,16 +102,18 @@
         <option value="$PROJECT_DIR$/app/config/security.yml" />
         <option value="$PROJECT_DIR$/src/UserBundle/Resources/config/login/routing.yml" />
         <option value="$PROJECT_DIR$/app/Resources/views/dashboard_layout.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/base_layout.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
         <option value="$PROJECT_DIR$/src/UserBundle/Controller/RegistrationController.php" />
         <option value="$PROJECT_DIR$/src/CompanyBundle/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/CompanyBundle/Resources/config/services.yml" />
         <option value="$PROJECT_DIR$/app/AppKernel.php" />
         <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
+        <option value="$PROJECT_DIR$/app/Resources/views/base_layout.html.twig" />
+        <option value="$PROJECT_DIR$/src/UserBundle/Resources/config/register/routing.yml" />
+        <option value="$PROJECT_DIR$/src/CompanyBundle/Company.php" />
         <option value="$PROJECT_DIR$/src/CompanyBundle/Entity/Company.php" />
         <option value="$PROJECT_DIR$/src/CompanyBundle/Form/CompanyType.php" />
-        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
       </list>
     </option>
   </component>
@@ -208,7 +170,7 @@
               <item name="accounteer-startup" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="CompanyBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Form" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Entity" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -218,21 +180,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="company&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/src/CompanyBundle/Controller/CompanyController.php&#10;app&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/AppKernel.php&#10;service&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/src/CompanyBundle/Resources/config/services.yml&#10;para&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/config/parameters.yml&#10;routi&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/config/routing.yml&#10;AppKer&#9;null&#9;null&#10;security&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/config/security.yml&#10;edit&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/Resources/FOSUserBundle/views/Profile/edit.html.twig&#10;Compa&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/src/CompanyBundle/Controller/CompanyController.php&#10;Com&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/src/CompanyBundle/Entity/Company.php&#10;ed&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/src/UserBundle/Resources/views/Profile/edit.html.twig&#10;das&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/Resources/views/dashboard_layout.html.twig&#10;Pro&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/src/UserBundle/Controller/ProfileController.php&#10;USer&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/src/UserBundle/Entity/User.php&#10;Company&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/src/CompanyBundle/Entity/Company.php&#10;User&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/src/UserBundle/Entity/User.php&#10;sec&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/config/security.yml&#10;config&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/config/config.yml&#10;par&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/config/parameters.yml&#10;confi&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/config/config.yml&#10;user&#9;null&#9;null&#10;routing.yml&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/config/routing.yml&#10;dash&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/Resources/views/dashboard_layout.html.twig&#10;base&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/Resources/views/base_layout.html.twig&#10;services.yml&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/config/services.yml" />
+    <property name="SearchEverywhereHistoryKey" value="bas&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/Resources/views/base_layout.html.twig&#10;company&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/src/CompanyBundle/Controller/CompanyController.php&#10;app&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/AppKernel.php&#10;service&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/src/CompanyBundle/Resources/config/services.yml&#10;para&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/config/parameters.yml&#10;routi&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/config/routing.yml&#10;AppKer&#9;null&#9;null&#10;security&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/config/security.yml&#10;edit&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/Resources/FOSUserBundle/views/Profile/edit.html.twig&#10;Compa&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/src/CompanyBundle/Controller/CompanyController.php&#10;Com&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/src/CompanyBundle/Entity/Company.php&#10;ed&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/src/UserBundle/Resources/views/Profile/edit.html.twig&#10;das&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/Resources/views/dashboard_layout.html.twig&#10;Pro&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/src/UserBundle/Controller/ProfileController.php&#10;USer&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/src/UserBundle/Entity/User.php&#10;Company&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/src/CompanyBundle/Entity/Company.php&#10;User&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/src/UserBundle/Entity/User.php&#10;sec&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/config/security.yml&#10;config&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/config/config.yml&#10;par&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/config/parameters.yml&#10;confi&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/config/config.yml&#10;user&#9;null&#9;null&#10;routing.yml&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/config/routing.yml&#10;dash&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/Resources/views/dashboard_layout.html.twig&#10;base&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/Resources/views/base_layout.html.twig&#10;services.yml&#9;FILE&#9;file:///home/kgoodness/websites/accounteer-startup/app/config/services.yml" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../todo-app" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/UserBundle/Controller" />
-      <recent name="$PROJECT_DIR$/src/CompanyBundle/Resources/views/Company" />
-      <recent name="$PROJECT_DIR$/src/UserBundle/Resources/config" />
-      <recent name="$PROJECT_DIR$/src/CompanyBundle/Resources/config/company" />
-      <recent name="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Profile" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/CompanyBundle/Entity" />
       <recent name="$PROJECT_DIR$/src/CompanyBundle/Controller" />
       <recent name="$PROJECT_DIR$/app/Resources/FOSUserBundle/views" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/CompanyBundle" />
+      <recent name="$PROJECT_DIR$/src/UserBundle/Controller" />
+      <recent name="$PROJECT_DIR$/src/CompanyBundle/Resources/views/Company" />
+      <recent name="$PROJECT_DIR$/src/UserBundle/Resources/config" />
+      <recent name="$PROJECT_DIR$/src/CompanyBundle/Resources/config/company" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -264,25 +226,24 @@
       <workItem from="1504258635217" duration="14704000" />
       <workItem from="1504477813046" duration="29116000" />
       <workItem from="1504605938699" duration="7000" />
-      <workItem from="1504607136987" duration="8483000" />
+      <workItem from="1504607136987" duration="15383000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64307000" />
+    <option name="totallyTimeSpent" value="71207000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="292" y="52" width="1857" height="1092" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2111664" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5853403" sideWeight="0.50193477" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.582199" sideWeight="0.5041459" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.582199" sideWeight="0.49806523" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.582199" sideWeight="0.49585405" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -326,14 +287,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Resources/translations/FOSUserBundle.en.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-861">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/config/routing/profile.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -545,25 +498,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base_layout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="96" column="31" lean-forward="true" selection-start-line="96" selection-start-column="31" selection-end-line="96" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/UserBundle/Resources/config/login/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UserBundle/Resources/config/register/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -650,18 +588,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UserBundle/Resources/config/register/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="63" lean-forward="false" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base_layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="74" column="69" lean-forward="false" selection-start-line="74" selection-start-column="69" selection-end-line="74" selection-end-column="69" />
+          <folding>
+            <marker date="1504618427416" expanded="true" signature="642:665" ph="{% block stylesheets ...%}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompanyBundle/Controller/CompanyController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1039">
+        <state relative-caret-position="-753">
           <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompanyBundle/Company.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#91#0#PHP" expanded="true" />
+            <element signature="e#126#158#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/CompanyBundle/Entity/Company.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-666">
-          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        <state relative-caret-position="381">
+          <caret line="46" column="20" lean-forward="false" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
           <folding>
             <element signature="e#40#72#0#PHP" expanded="true" />
           </folding>
@@ -670,24 +653,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CompanyBundle/Form/CompanyType.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompanyBundle/Controller/CompanyController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        <state relative-caret-position="237">
+          <caret line="21" column="54" lean-forward="false" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
           <folding />
         </state>
       </provider>

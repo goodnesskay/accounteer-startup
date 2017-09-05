@@ -3,9 +3,9 @@
 namespace CompanyBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert;
 use Symfony\Component\HttpFoundation\File\File;
 use Vich\UploaderBundle\Mapping\Annotation as Vich;
-use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * Company
@@ -13,6 +13,7 @@ use Symfony\Component\Validator\Constraints as Assert;
  * @ORM\Table(name="company")
  * @ORM\Entity(repositoryClass="CompanyBundle\Repository\CompanyRepository")
  * @Vich\Uploadable
+ *
  */
 class Company
 {
@@ -40,17 +41,16 @@ class Company
     private $companyLogo;
 
     /**
-     * @Assert\File(
-     *     maxSize="5M",
-     *     mimeTypes={"image/png","image/gif", "image/jpeg", "image/pjpeg"},
-     *     mimeTypesMessage = "Please upload a valid image"
-     * )
      * @Vich\UploadableField(mapping="company_logo", fileNameProperty="companyLogo")
      *
-     * @var File $companyLogoFile
-     *
+     * @var File $company_logo_file
+     * @Assert\File(
+     *     maxSize="5M",
+     *     mimeTypes={"image/png","image/gif", "image/jpeg", "image/png"},
+     *     mimeTypesMessage = "Please upload a valid image"
+     * )
      */
-    protected $companyLogoFile;
+    protected $company_logo_file;
 
     /**
      * @var string
@@ -60,17 +60,16 @@ class Company
     private $companyBgImage;
 
     /**
-     * @Assert\File(
-     *     maxSize="5M",
-     *     mimeTypes={"image/png","image/gif", "image/jpeg", "image/pjpeg"},
-     *     mimeTypesMessage = "Please upload a valid background image"
-     * )
      * @Vich\UploadableField(mapping="company_bg_image", fileNameProperty="companyBgImage")
      *
-     * @var File $companyBgFile
-     *
+     * @var File $company_bg_file
+     * @Assert\File(
+     *     maxSize="5M",
+     *     mimeTypes={"image/png","image/gif", "image/jpeg", "image/png"},
+     *     mimeTypesMessage = "Please upload a valid background image"
+     * )
      */
-    protected $companyBgFile;
+    protected $company_bg_file;
 
     /**
      * @var string
@@ -101,7 +100,6 @@ class Company
     private $companyAddress;
 
 
-
     /**
      * Get id
      *
@@ -110,6 +108,54 @@ class Company
     public function getId()
     {
         return $this->id;
+    }
+
+    /**
+     * Set companyLogo
+     *
+     * @param string $companyLogo
+     *
+     * @return Company
+     */
+    public function setCompanyLogo($companyLogo)
+    {
+        $this->companyLogo = $companyLogo;
+
+        return $this;
+    }
+
+    /**
+     * Get companyLogo
+     *
+     * @return string
+     */
+    public function getCompanyLogo()
+    {
+        return $this->companyLogo;
+    }
+
+    /**
+     * Set companyBgImage
+     *
+     * @param string $companyBgImage
+     *
+     * @return Company
+     */
+    public function setCompanyBgImage($companyBgImage)
+    {
+        $this->companyBgImage = $companyBgImage;
+
+        return $this;
+    }
+
+    /**
+     * Get companyBgImage
+     *
+     * @return string
+     */
+    public function getCompanyBgImage()
+    {
+        return $this->companyBgImage;
     }
 
     /**
@@ -230,53 +276,5 @@ class Company
     public function getUser()
     {
         return $this->user;
-    }
-
-    /**
-     * Set companyLogo
-     *
-     * @param string $companyLogo
-     *
-     * @return Company
-     */
-    public function setCompanyLogo($companyLogo)
-    {
-        $this->companyLogo = $companyLogo;
-
-        return $this;
-    }
-
-    /**
-     * Get companyLogo
-     *
-     * @return string
-     */
-    public function getCompanyLogo()
-    {
-        return $this->companyLogo;
-    }
-
-    /**
-     * Set companyBgImage
-     *
-     * @param string $companyBgImage
-     *
-     * @return Company
-     */
-    public function setCompanyBgImage($companyBgImage)
-    {
-        $this->companyBgImage = $companyBgImage;
-
-        return $this;
-    }
-
-    /**
-     * Get companyBgImage
-     *
-     * @return string
-     */
-    public function getCompanyBgImage()
-    {
-        return $this->companyBgImage;
     }
 }

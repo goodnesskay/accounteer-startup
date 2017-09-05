@@ -6,6 +6,7 @@ use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\SubmitType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
+use Vich\UploaderBundle\Form\Type\VichFileType;
 
 class CompanyType extends AbstractType
 {
@@ -14,8 +15,14 @@ class CompanyType extends AbstractType
      */
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
-        $builder->add('companyLogo')
-            ->add('companyBgImage')
+        $builder->add('companyLogoFile', VichFileType::class, array(
+            'required' => false,
+            'label'=>'Company Logo',
+        ))
+            ->add('companyBgFile', VichFileType::class, array(
+                'required' => false,
+                'label'=>'Company Background Image',
+            ))
             ->add('companyName')
             ->add('companyEmail')
             ->add('companyMobileNumber')
