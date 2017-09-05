@@ -28,7 +28,8 @@
         "sensio/framework-extra-bundle": "^3.0.2",
         "incenteev/composer-parameter-handler": "^2.0",
         "friendsofsymfony/user-bundle": "~2.0",
-        "vich/uploader-bundle": "^1.4"
+        "vich/uploader-bundle": "^1.4",
+        "amazonwebservices/aws-sdk-for-php": "^1.6"
     },
     "require-dev": {
         "sensio/generator-bundle": "^3.0",
