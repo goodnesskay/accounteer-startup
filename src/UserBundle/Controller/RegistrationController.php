@@ -15,9 +15,6 @@ use Symfony\Component\HttpFoundation\Request;
 class RegistrationController extends BaseController
 {
 
-    /**
-     *@Route("register", name="register")
-     */
     public function registerAction(Request $request)
     {
         /** @var $formFactory FactoryInterface */
