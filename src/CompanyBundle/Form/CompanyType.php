@@ -14,13 +14,15 @@ class CompanyType extends AbstractType
      */
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
-        $builder->add('companyName')
+        $builder->add('companyLogo')
+            ->add('companyBgImage')
+            ->add('companyName')
             ->add('companyEmail')
             ->add('companyMobileNumber')
             ->add('companyAddress')
             ->add('submit',SubmitType::class);
     }
-
+    
     /**
      * {@inheritdoc}
      */

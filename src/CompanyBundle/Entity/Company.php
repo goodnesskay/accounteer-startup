@@ -3,12 +3,16 @@
 namespace CompanyBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\HttpFoundation\File\File;
+use Vich\UploaderBundle\Mapping\Annotation as Vich;
+use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * Company
  *
  * @ORM\Table(name="company")
  * @ORM\Entity(repositoryClass="CompanyBundle\Repository\CompanyRepository")
+ * @Vich\Uploadable
  */
 class Company
 {
@@ -27,6 +31,46 @@ class Company
      * @ORM\JoinColumn(name="user_id", referencedColumnName="id")
      */
     private $user;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="company_logo", type="string", length=255, nullable=true)
+     */
+    private $companyLogo;
+
+    /**
+     * @Assert\File(
+     *     maxSize="5M",
+     *     mimeTypes={"image/png","image/gif", "image/jpeg", "image/pjpeg"},
+     *     mimeTypesMessage = "Please upload a valid image"
+     * )
+     * @Vich\UploadableField(mapping="company_logo", fileNameProperty="companyLogo")
+     *
+     * @var File $companyLogoFile
+     *
+     */
+    protected $companyLogoFile;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="company_bg_image", type="string", length=255, nullable=true)
+     */
+    private $companyBgImage;
+
+    /**
+     * @Assert\File(
+     *     maxSize="5M",
+     *     mimeTypes={"image/png","image/gif", "image/jpeg", "image/pjpeg"},
+     *     mimeTypesMessage = "Please upload a valid background image"
+     * )
+     * @Vich\UploadableField(mapping="company_bg_image", fileNameProperty="companyBgImage")
+     *
+     * @var File $companyBgFile
+     *
+     */
+    protected $companyBgFile;
 
     /**
      * @var string
@@ -186,5 +230,53 @@ class Company
     public function getUser()
     {
         return $this->user;
+    }
+
+    /**
+     * Set companyLogo
+     *
+     * @param string $companyLogo
+     *
+     * @return Company
+     */
+    public function setCompanyLogo($companyLogo)
+    {
+        $this->companyLogo = $companyLogo;
+
+        return $this;
+    }
+
+    /**
+     * Get companyLogo
+     *
+     * @return string
+     */
+    public function getCompanyLogo()
+    {
+        return $this->companyLogo;
+    }
+
+    /**
+     * Set companyBgImage
+     *
+     * @param string $companyBgImage
+     *
+     * @return Company
+     */
+    public function setCompanyBgImage($companyBgImage)
+    {
+        $this->companyBgImage = $companyBgImage;
+
+        return $this;
+    }
+
+    /**
+     * Get companyBgImage
+     *
+     * @return string
+     */
+    public function getCompanyBgImage()
+    {
+        return $this->companyBgImage;
     }
 }

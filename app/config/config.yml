@@ -9,7 +9,6 @@ imports:
 # http://symfony.com/doc/current/best_practices/configuration.html#application-related-configuration
 parameters:
     locale: en
-    app.path.product_images: /uploads/images/product
 
 framework:
     #esi:             ~
@@ -78,5 +77,32 @@ fos_user:
             address: "%mailer_user%"
             sender_name: "%mailer_user%"
 
+knp_gaufrette:
+    stream_wrapper: ~
+    adapters:
+        uploads:
+            amazon_s3:
+                amazon_s3_id: pi_file_store.s3
+                bucket_name: p.accounteer.com
+                options:
+                    create: true
+    filesystems:
+        amazon_s3:
+            adapter:    uploads
+
 vich_uploader:
     db_driver: orm
+    storage: gaufrette
+    mappings:
+        company_logo:
+            uri_prefix: https://s3.amazonaws.com/somebucket-name
+            upload_destination: amazon_s3
+            namer: vich_uploader.namer_uniqid
+            delete_on_remove: true
+            delete_on_update: true
+        company_bg:
+            uri_prefix: https://s3.amazonaws.com/somebucket-name
+            upload_destination: amazon_s3
+            namer: vich_uploader.namer_uniqid
+            delete_on_remove: true
+            delete_on_update: true
